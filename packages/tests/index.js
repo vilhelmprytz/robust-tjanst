@@ -20,6 +20,12 @@ const tests = [
     messages: './mockedHttpRedirectMessages'
   },
   {
+    name: 'zonemaster',
+    group: 'dns',
+    image: 'netnodse/dns-zonemaster:latest',
+    messages: './tests/zonemaster/messages'
+  },
+  {
     name: 'dnssec-presence',
     group: 'dns',
     image: null, // this is mocked
